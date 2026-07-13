@@ -210,7 +210,7 @@ text_sensor:
         - "0 -> available"
         - "1 -> plugged_in"
         - "2 -> charging"
-        - "3 -> waiting_for_authorization"
+        - "3 -> waiting_for_authorization" # not used in portable as it does not have RFID module.
         - "4 -> charged"
         - "5 -> waiting"
         - "6 -> fault"
